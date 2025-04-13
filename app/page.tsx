@@ -342,7 +342,7 @@ export default function HomePage() {
             border: '1px solid #ccc',
             fontFamily: 'Futura',
             position: 'absolute',
-            top: '90vh', left: '88px',
+            top: '144px', left: '88px',
             transform: 'translate(-50%, -50%)',
           }}
         >
