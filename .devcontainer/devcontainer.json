@@ -1,0 +1,13 @@
+{
+    "name": "Node.js Development Environment",
+    "dockerFile": "Dockerfile",
+    "context": ".",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode"
+            ]
+        }
+    }
+}

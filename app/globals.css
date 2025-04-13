@@ -1,0 +1,15 @@
+/* Tailwind CSS ディレクティブが設定されていることを確認 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 必要であれば、ここに追加のグローバルスタイルや@layerルールを記述 */
+body {
+  /* Tailwindの`bg-*`クラスを`main`要素で使う場合、bodyの背景色は不要かも */
+  /* 必要に応じてフォントなどを設定 */
+}
+
+/* R3F Canvasがクリックイベントなどを正しく捉えるように */
+canvas {
+  display: block;
+}
