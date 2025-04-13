@@ -327,7 +327,7 @@ export default function HomePage() {
       {/* UI要素 (Canvas外) */}
       <div style={{ position: 'absolute', top: 0, left: 0, zIndex: 10, padding: '1rem', color: '#fff' }}>
         <h1 style={{ fontSize: '64px', fontFamily: 'Futura', margin: 0, marginBottom: '1rem' }}>
-          Fluid Sphere with Shader
+          Fluid Sphere
         </h1>
         {/* ★ 表示切替ボタン */}
         <button
